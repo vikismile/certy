@@ -1,0 +1,44 @@
+body{
+	background-color: #c1e3e6;
+	font-family: arial;
+}
+div#logo{
+	margin: 75px 200px;
+}
+
+.standart{
+	margin: 60px 200px ;
+	
+	font-size: 35px;
+}
+.white{
+	background-color: white;
+	width: 870px;
+	height: 1000px;
+	margin: auto;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgb(165, 196, 198);
+	padding-top: 30px;
+}
+.profile{
+	background-color: #c1e3e6;
+	width: 800px;
+	height: 350px;
+	margin: auto;
+}
+.profile img{
+	margin: 40px 25px;
+}
+.name{
+	position: absolute;
+	margin: -250px 330px;
+	font-size: 40px;
+}
+.name :nth-child(2){
+	font-size: 20px;
+	color: gray;
+	margin-top: -20px;
+}
+.link{
+
+}
