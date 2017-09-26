@@ -4,6 +4,8 @@ body{
 }
 div#logo{
 	margin: 75px 200px;
+	width:245px;
+	height: 95px;
 }
 
 .standart{
@@ -13,7 +15,7 @@ div#logo{
 }
 .white{
 	background-color: white;
-	width: 870px;
+	max-width: 53em;
 	height: 1000px;
 	margin: auto;
 	border-radius: 7px;
@@ -22,7 +24,7 @@ div#logo{
 }
 .profile{
 	background-color: #c1e3e6;
-	width: 800px;
+	max-width: 49em;
 	height: 350px;
 	margin: auto;
 }
@@ -40,15 +42,20 @@ div#logo{
 	margin-top: -20px;
 }
 .link{
-
+display: inline;
+width:250px; 
+height:25px;
 }
 .about{
-	width: 700px;
+	max-width: 700px;
 	height: 350px;
 	margin-left: 60px;
 	margin-top: 50px;
 	font-size: 26px;
 	position: absolute;
+}
+.about :nth-child(2){
+	font-size:22px;
 }
 .button{
 	text-align:center; 
@@ -65,13 +72,104 @@ div#logo{
 .ola{
 	position:absolute;
 	margin:280px 680px;
-	width: 150px;
+	max-width: 9em;
 	height: 100px;
 }
 .right{
-	width: 70px;
+	max-width: 4em;
 	height: 500px;
-	position:absolute;
-	margin-left: 1100px;
+	float: right;
+	margin-right: 120px;
 	margin-top: -900px;
 }
+
+@media screen and (max-width:376px) {
+
+	body{
+	background-color: #c1e3e6;
+	font-family: arial;
+	width:300px;
+}
+	div#logo{
+	margin: 0px 0px;
+	width:100px;
+	height: 80px;
+}
+
+.standart{
+	margin: 10px 10px;
+	width: 300px;
+	font-size: 25px;
+}
+.white{
+	background-color: white;
+	width: 600px;
+	height: 700px;
+}
+.profile{
+	background-color: #c1e3e6;
+	width: 580px;
+	height: 270px;
+	margin: auto;
+}
+.profile img{
+	margin: 10px 15px;
+}
+.name{
+	position: relative;
+	display:block;
+	font-size: 30px;
+	margin: -200px 330px;
+	width: 200px
+}
+.name :nth-child(2){
+	font-size: 20px;
+	color: gray;
+	margin-top: -20px;
+
+}
+.link{
+	position: relative;
+	margin:400px 0px;
+	display: none;
+}
+.about{
+	width: 570px;
+	height: 350px;
+	margin-left: 10px;
+	margin-top: 0px;
+	font-size: 20px;
+	position: absolute;
+}
+.about :nth-child(2){
+	font-size:15px;
+}
+.button{
+	text-align:center; 
+	position: absolute;
+	margin: 170px 20px;
+	font-size: 16px; 
+	color:white;
+	background-color: black;
+	border: 0px;
+	padding: 15px 24px;
+	border-radius: 50px;
+	width: 250px;
+}
+.ola{
+	position:absolute;
+	margin:150px 480px;
+	width: 100px;
+	height: 75px;
+}
+.right{
+	max-width: 4em;
+	height: 500px;
+	display: block;
+	margin-left: 620px;
+	margin-top: -650px;
+	position: absolute;
+}
+
+}
+
