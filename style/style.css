@@ -1,0 +1,147 @@
+body{
+	background-color: #c1e3e6;
+	font-family: arial;
+}
+#logo{
+	margin: 0px 200px;
+	width:245px;
+	height: 95px;
+}
+
+.white{
+	background-color: white;
+	max-width: 53em;
+	height: 700px;
+	margin: auto;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgb(165, 196, 198);
+	padding-top: 30px;
+}
+.profile{
+	background-color: #c1e3e6;
+	max-width: 49em;
+	height: 350px;
+	margin: auto;
+}
+.profile img{
+	position: relative;
+	margin: 40px 25px;
+	
+}
+.name{
+	position: absolute;
+	margin: -250px 330px;
+	font-size: 40px;
+}
+.name :nth-child(2){
+	font-size: 20px;
+	color: gray;
+	margin-top: -20px;
+	width: 300px;
+}
+.facebook, .twitter, .instagram{
+	width: 25px;
+	height: 25px;
+}
+.fb{
+	position: relative;
+	margin-top: -90px;
+	margin-left: 300px;
+}
+.tw{
+	position: relative;
+	margin-top: -110px;
+	margin-left: 360px;
+}
+.inst{
+	position: relative;
+	margin-top: -110px;
+	margin-left: 420px;
+}
+.about{
+	max-width: 700px;
+	height: 350px;
+	margin-left: 60px;
+	margin-top: 50px;
+	font-size: 26px;
+	position: absolute;
+}
+.button{
+	text-align:center; 
+	position: absolute;
+	margin: 230px 60px;
+	font-size: 16px; 
+	color:white;
+	background-color: black;
+	border: 0px;
+	padding: 15px 24px;
+	border-radius: 50px;
+	width: 250px;
+}
+
+@media screen and (max-width:570px) {
+
+#logo{
+	margin: auto;
+	width:245px;
+	height: 95px;
+}
+.profile img{
+	position: relative;
+	margin: 40px 25px;
+	
+}
+.name{
+	position: absolute;
+	margin: -250px 300px;
+	font-size: 30px;
+}
+.name :nth-child(2){
+	font-size: 16px;
+	color: gray;
+	margin-top: -20px;
+	width: 150px;
+}
+.facebook, .twitter, .instagram{
+	width: 25px;
+	height: 25px;
+}
+.fb{
+	position: relative;
+	margin-top: -90px;
+	margin-left: 270px;
+}
+.tw{
+	position: relative;
+	margin-top: -110px;
+	margin-left: 330px;
+}
+.inst{
+	position: relative;
+	margin-top: -110px;
+	margin-left: 390px;
+}
+.about{
+	width: 420px;
+	height: 350px;
+	margin-left: 35px;
+	margin-top: 50px;
+	font-size: 22px;
+	position: absolute;
+}
+.button{
+	text-align:center; 
+	position: absolute;
+	margin: 230px 60px;
+	font-size: 14px; 
+	color:white;
+	background-color: black;
+	border: 0px;
+	padding: 10px 15px;
+	border-radius: 50px;
+	width: 220px;
+}
+
+
+}
+
